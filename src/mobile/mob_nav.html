@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/output.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class=" bg-slate-800 flex gap-3 pl-1 md:gap-5 md:justify-center">
+        <div class="bg-slate-800 py-2 ml-1">
+            <a href="/src/site/index.html">
+
+                <img src="/src/images/imagem-9.jpeg" alt="logo" class="w-16 h-16 rounded-full">
+            </a>
+        </div>
+        <div class="w-full flex items-center py-5 justify-between md:w-auto">
+            <h1 class="text-gray-400 font-bold text-2xl md:text-3xl">We Give For Free</h1>
+            <div class="flex items-center justify-center md:hidden">
+                <a href="/src/mobile/mob_nav.html">
+
+                    <button
+                    class="inlinne-flex flex items-center justify-center mx-4 h-10 w-10 rounded-md focus:outline-none border border-gray-400 text-gray-400"
+                    >
+                        <svg 
+                        class="h-6 w-6" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path
+                            stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                            >
+                        </path>
+                        </svg>
+                    </button>
+                </a>
+            
+            </div>
+
+        </div>
+    </header>
+
+
+    <div id="container-close" class="absolute z-50 w-full flex-col items-center px-3 py-2 bg-slate-600 shadow-xl">
+
+        <button id="close-menu" class="text-3xl text-bold font-bold mt-4 text-rose-600">X</button>
+
+
+        <nav id="close-nav" class="flex flex-col bg-slate-600 h-full w-full items-center py-3 font-medium">
+            <ol class="w-full flex flex-col mt-8 gap-5 text-gray-400">
+                <li>
+                    <a href="/src/site/index.html" class="hover:text-gray-300 duration-300 text-2xl">Home</a>
+                </li>
+                <li>
+                    <div class="relative inline-block text-left">
+                        <!-- Botão do Dropdown -->
+                        <button id="mobile-button" class="hover:text-gray-300 duration-300 text-2xl">
+                            Cadastro
+                        </button>
+                    
+                        <!-- Menu do Dropdown -->
+                        <div id="mobile-drop" class="hidden w-full origin-top-right absolute right-0 mt-2">
+                            <div class="w-28 h-full bg-slate-600">
+                                <a href="/src/form/instituicao.html" class="block px-4 py-2 text-lg text-gray-400 hover:text-gray-300">Instituição</a>
+                                <a href="/src/form/professor.html" class="block px-4 py-2 text-lg text-gray-400 hover:text-gray-300">Professor</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+    
+                </li>
+    
+                <li class="">
+                    <a href="#" class="hover:text-gray-300 duration-300 text-2xl">Abrigos</a>
+                </li>
+    
+                <li>
+                    <a href="#" class="hover:text-gray-300 duration-300 text-2xl">Orfanatos</a>
+                </li>
+    
+                <li>
+                    <a href="#" class="hover:text-gray-300 duration-300 text-2xl">Sobre Nós</a>
+                </li>
+            </ol>
+        </nav>
+
+        </div>
+
+        <main class="h-screen">
+            <section>
+
+            </section>
+        </main>
+
+        <footer class=" w-full bg-slate-950 p-5">
+            <div class="w-full grid grid-cols-1 gap-4 p-5 lg:grid-cols-4">
+                <div class="col-span-1">
+                    <h3 class="text-white font-bold">Parceiros</h3>
+                    <div class="py-3 flex flex-col gap-2">
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 duration-300 font-semibold text-sm">
+                                Apple
+                            </span>
+                        </a>
+    
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 duration-300 font-semibold text-sm">
+                                Apple
+                            </span>
+                        </a>
+    
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 duration-300 font-semibold text-sm">
+                                Apple
+                            </span>
+                        </a>
+    
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 duration-300 font-semibold text-sm">
+                                Apple
+                            </span>
+                        </a>
+    
+                    </div>
+                </div>
+    
+                <div class="col-span-1">
+                    <h3 class="text-white font-bold">Tecnologia</h3>
+                    <div class="py-3 flex flex-col gap-2">
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 duration-300 font-semibold text-sm">Python</span>
+                        </a>
+    
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 duration-300 font-semibold text-sm">Python</span>
+                        </a>
+    
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 duration-300 font-semibold text-sm">Python</span>
+                        </a>
+    
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 duration-300 font-semibold text-sm">Python</span>
+                        </a>
+                      
+                    </div>
+                </div>
+    
+                <div class="col-span-1">
+                    <h3 class="text-white font-bold">Abrigos</h3>
+                    <div class="py-3">
+                        <a href="#">
+                            <span class="text-gray-400 hover:text-gray-300 font-semibold text-sm">Coração do Pai</span>
+                        </a>
+                    </div>
+                </div>
+    
+                <div class="col-span-1">
+                    <h3 class="text-white font-bold">Orfanatos</h3>
+                    <div class="flex gap-3 py-3">
+                       
+                    </div>
+                </div>
+    
+            </div>
+    
+            <hr class="border-1 border-slate-800 mb-4">
+            <div class="flex flex-col lg:flex-row lg:justify-between gap-2">
+                <div class="flex flex-col gap-y-4">
+                    <div  class="col-span-1">
+                        <p class="text-white flex gap-2 items-center text-xs lg:text-sm"><img src="/src/images/imagem-9.jpeg" alt="logo" class="h-10 w-10 rounded-full">We Give For Free &copy 2024 Todos os direitos reservados</p>
+                    </div>
+        
+                    <div class="flex flex-col gap-y-1 col-span-1">
+                        <span class="text-white text-xs lg:text-sm">We Give For Free - CNPJ 00.000.000/0001-00</span>
+                        <span class="text-white text-xs lg:text-sm">Rua José Romão, nº 207 Sala 401 Bloco 26</span>
+                        <span class="text-white text-xs lg:text-sm">Manaus, Am- 69085288</span>
+                        
+                    </div>
+        
+                </div>
+    
+                <div class="">
+                    <h3 class="text-white font-bold">Seguir a We Give For Free</h3>
+                    <div class="flex gap-5 py-3">
+                        <div class="col-span-1">
+                            <a href="#"><i class="fa fa-facebook rounded-full h-5 w-5 flex items-center justify-center bg-gray-400 hover:bg-gray-300 duration-300"></i></a>
+                        </div>
+    
+                        <div class="col-span-1">
+                            <a href="#"><i class="fa fa-instagram rounded-full h-5 w-5 flex items-center justify-center bg-gray-400 hover:bg-gray-300 duration-300"></i></a>
+                        </div>
+    
+                        <div class="col-span-1">
+                            <a href="#"><i class="fa fa-twitter rounded-full h-5 w-5 flex items-center justify-center bg-gray-400 hover:bg-gray-300 duration-300"></i></a>
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </div>
+    
+        </footer>
+
+    </div>
+    
+</body>
+<script src="/src/scipt/mobile.js"></script>
+</html>
