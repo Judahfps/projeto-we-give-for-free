@@ -7,7 +7,7 @@
   const dropdownMenu1 = document.getElementById('mobile-drop');
 
   //menu mobile
-  const menuMobile= document.getElementById('container-close')
+  const menuMobile= document.getElementById('menu')
   const menuAbrir = document.getElementById('btn-open');
   const menuFechar = document.getElementById('btn-close')
   // const closeMenu = document.getElementById('close-menu')
@@ -37,17 +37,26 @@ window.addEventListener('click', (e) => {
     }
 });
 
-function openMnu(){
-  menuMobile.classList.remove('hidden')
-  menuMobile.classList.add('flex')
 
+//scrip menu mobile
+// const menuMobile = document.getElementById("menu");
+// const btnClose = document.getElementById("btn-close");
+// const btnOpen = document.getElementById("btn-open");
+
+
+function openMenu(){
+    menuMobile.classList.remove('hidden')
+    menuMobile.classList.add('flex')
 
 }
 
 
 function closeMenu(){
+  menuMobile.classList.remove('flex')
+  menuMobile.classList.add('hidden')
 
 }
+
 
 // closeMenu.addEventListener('click', () => {
 //     containerClose.classList.toggle('hidden')
